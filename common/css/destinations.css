@@ -1,0 +1,427 @@
+body{
+  background-color: #6622DC;
+  margin: 0;
+}
+
+header{
+  background: #0C2E59;
+  padding: 1em;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  
+}
+
+header nav ul li a{
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+  margin-left: 300px;
+  justify-content: space-between;
+  font-size: 23px;
+  margin-top: 60px;
+}
+
+header nav ul li a:hover{
+color: #D9525E;
+}
+
+header nav ul li a img{
+width: 60px;
+height: 60px;
+margin-top: -20px;
+}
+
+.logo a img{
+position: absolute;
+width: 150px;
+height: 150px;
+margin-top: -150px;
+margin-left: 10px;
+}
+
+
+
+/*homebackground*/
+
+.homebackground{
+  width: 100%;
+  height: 600px;
+  background-image: url(https://thumbs.gfycat.com/FineBreakableBeardedcollie-max-1mb.gif);
+  background-size: cover;
+  object-fit: cover;
+  background-blend-mode: overlay;
+}
+/*homebackground*/
+
+
+/*login*/
+.login a img{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-left: 176vh;
+  margin-top: -142px;
+  }
+#log a{
+  
+  color: #D9525E;
+}
+/*login*/
+
+
+/*user search bar*/
+
+.search{
+position: relative;
+margin-top: -250px;
+left: 30%;
+width: 1000px;
+}
+
+.search-container{
+background: #0C2E59;
+width: 1000px;
+height: 100px;
+color: white;
+
+}
+
+.user-input{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.doe{
+display: flex;
+flex-direction: column;
+position: relative;
+margin-top: 0.6%;
+
+}
+
+.enter-city, .room, .guest, .submit{
+margin-top: 2.5%;
+}
+
+#lname, #Date{
+background: #D9525E;
+width: 170px;
+height: 50px;
+}
+
+#quantity{
+background: #D9525E;
+width: 90px;
+height: 50px;
+
+}
+#lname::placeholder, #quantity::placeholder{
+color: white;
+
+}
+
+
+.submitbox{
+background: #D9525E;
+width: 100px;
+height: 49px;
+position: relative;
+margin-top: 2.5%;
+}
+.submit a{
+color: white;
+text-decoration: none;
+font-size: 25px;
+position: relative;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+/*subheadings*/
+
+.heading1{
+color: white;
+position: relative;
+margin-top: 9%;
+left: 200px;
+width: 500px;
+}
+
+/*carousel*/
+
+.backgroundpurple{
+position:absolute;
+margin-top: 0px;
+width: 100%;
+height: 445px;
+}
+
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+  padding-top: 20.9%;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  top: 12px;
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+
+    border-radius: 10%;
+}
+
+.carousel__viewport ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  counter-increment: item;
+}
+
+
+
+.carousel__slide:before {
+  content: counter(item);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-40%,70px);
+  color: #fff;
+  font-size: 2em;
+}
+
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 200px;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+  left: 3rem;
+}
+
+.carousel::after,
+.carousel__next {
+  right: 3rem;
+}
+
+.carousel::before,
+.carousel::after {
+  content: '';
+  z-index: 1;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.carousel::before {
+  background-image: url(/gfx/GENERIC/before.png);
+}
+
+.carousel::after {
+  background-image: url(/gfx/GENERIC/after.png);
+}
+
+/*footer*/
+
+footer{
+  margin-top: 100px;
+  border-top: solid white 4px;
+  width: 100%;
+  height: 200px;
+  background: #0C2E59;
+}
+
+.containerfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.contentfooter h2{
+  color: white;
+  font-size: 20px;
+}
+.emailenter{
+  margin-left: 3px;
+position: relative;
+top: -110px;
+left: 50px;
+width: 300px;
+}
+.contentfooter a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.contentfooter .media-icons a{
+  font-size: 24px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #D9525E;
+}
+footer .bottom{
+  width: 60%;
+  text-align: right;
+  color: #d9d9d9;
+}
+footer .bottom a{
+  color: #D9525E;
+}
+
+.bottom{
+  margin-top: -90px;
+  margin-left: -2%;
+}
+
+
+footer a:hover{
+  color: #D9525E;
+}
+footer{
+  position: relative;
+}
+
+.rightbox{
+  height: 1px;
+}
+/*footer*/

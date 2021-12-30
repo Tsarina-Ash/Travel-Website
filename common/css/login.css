@@ -1,0 +1,74 @@
+body{
+    background-image: url(/gfx/GENERIC/LoginBackground.gif);
+    background-size: cover;
+    margin: 0;
+}
+
+.logo img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    background: #0C2E59;
+    width: 450px;
+    height: 500px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container h2{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#name, #email, #password{
+    width: 387px;
+    height: 45px;
+
+    border: solid #D9525E;
+    background: #2F496A;
+}
+
+
+.signup-info{
+    margin-left: 6%;    
+}
+
+.margintest{
+    margin-top: 20px;
+}
+
+
+.Login{
+    position: relative;
+    margin-left: 40%;
+}
+
+.signupbtn, p, .socialmedia, .have-account{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.forgot{
+    margin-top: 20px;
+    position: relative;
+    left: 69%;
+}
+.forgot a{
+    color: white;
+    font-size: 15px;
+}
+.signupbtn{
+    margin-top: 20px;
+}
+
+.have-account{
+    margin-top: 30px;
+}
+

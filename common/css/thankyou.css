@@ -1,0 +1,50 @@
+/*Thank you Page*/
+body{
+    background-image: url(/gfx/GENERIC/LoginBackground.gif);
+    background-size: cover;
+    margin: 0;
+}
+
+.logo img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0;
+}
+
+
+.bookingcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background: #0C2E59;
+    width: 600px;
+    position: relative;
+    margin-left: 34%;
+    padding: 2em;
+}
+
+.bookingimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px; height:90%;
+    color: white;
+  }
+
+.bookingcenter p{
+    color: white;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    margin-left: 41%;
+    margin-top: 50px;
+}
+

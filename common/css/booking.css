@@ -1,0 +1,162 @@
+body{
+    background-color: #6622DC;
+    background-image: url(/gfx/GENERIC/LoginBackground.gif);
+    background-size: cover;
+    margin: 0;
+}
+
+.footer{
+    background: #0C2E59;
+    padding: 1em;
+}
+
+.contentsection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.fsection1, .fsection2, .fsection3{
+    color: white;
+}
+
+.fsection1 p, .fsection2 p, .fsection3 p{
+    font-size: 30px;
+    display: flex;
+    width: 350px;
+    margin: 0 auto;
+    text-decoration: underline;
+    margin-top: 80px;
+}
+
+.fsection1 ul li,.fsection2 ul li,.fsection3 ul li{
+    list-style: none;
+}
+
+.fsection1 ul li a,.fsection2 ul li a,.fsection3 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.fsection1 ul li a:hover,.fsection2 ul li a:hover,.fsection3 ul li a:hover{
+    color:#D9525E;
+}
+
+.socialmedia img{
+    width: 35px;
+    height: 35px;
+    border-radius: 35%;
+}
+
+.socialmedia p{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+    text-decoration: underline;
+}
+.socialmedia ul li{
+    list-style: none;
+    width: 45px;
+}
+
+.socialmedia ul{
+    display: flex;
+
+}
+
+.emailnewsletter h2{
+    color: white;
+    text-decoration: underline;
+}
+
+.emailnewsletter{
+    margin-left: -150px;
+    margin-top: 130px;
+}
+
+#footer-email{
+    width: 250px;
+    height: 35px;
+    border-radius: 0.5%;
+}
+
+
+#footer-email-btn{
+    width: 100px;
+    height: 35px;
+    color: white;
+    border: solid white;
+    background: rgb(226, 217, 217, 0.3);
+
+
+    font-size: 15px;
+}
+
+#footer-email-btn:hover{
+    background: #D9525E;
+    cursor: pointer;
+}
+
+
+.slides img{
+    width: 300px;
+    height: 350px;
+
+    object-fit: cover;
+}
+
+.slides ul li{
+    list-style: none;
+}
+
+/*TOP CODE  IS HEADER + FOOTER*/
+
+
+/*About Us Page & Terms Of Service Page*/
+
+.box24 {
+    background-color: #0C2E59;
+    height: 140%;
+    width: 60%;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+  }
+
+  .box25 {
+    background-color: #0C2E59;
+    height: 140%;
+    width: 60%;
+    font-size: 24px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+
+  .box26 {
+    background-color: #0C2E59;
+    height: 140%;
+    width: 60%;
+    font-size: 24px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+
+  .underlinedtext {
+    text-decoration: underline;
+  } 
+
+  .toscenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+}
