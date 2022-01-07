@@ -30,6 +30,18 @@ header nav ul{
   margin-bottom: 20px;
 }
 
+.box24 {
+  background-color: #0C2E59;
+  height: 140%;
+  width: 60%;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
 .box25 {
   background-color: #0C2E59;
   height: 140%;
@@ -39,6 +51,29 @@ header nav ul{
   margin-left: auto;
   margin-right: auto;
 } 
+
+
+.box26 {
+  background-color: #0C2E59;
+  height: 140%;
+  width: 60%;
+  font-size: 24px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.underlinedtext {
+  text-decoration: underline;
+} 
+
+.toscenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  color: white;
+}
 
 header nav ul li a{
     text-transform: uppercase;
@@ -83,6 +118,16 @@ margin-left: 10px;
     background-size: 100%;
     background-blend-mode: overlay;
 }
+
+.homebackground2{
+  width: 100%;
+  height: 600px;
+  background-image: url(https://thumbs.gfycat.com/FineBreakableBeardedcollie-max-1mb.gif);
+  background-size: cover;
+  object-fit: cover;
+  background-blend-mode: overlay;
+}
+
 /*homebackground*/
 
 /*login*/
@@ -171,6 +216,8 @@ margin-left: 10px;
   margin-top: 10px;
 }
 
+/*user search bar*/
+
 /*subheadings*/
 
 .heading1{
@@ -180,6 +227,8 @@ margin-left: 10px;
   left: 100px;
   width: 500px;
 }
+
+/*subheadings*/
 
 /*carousel*/
 
@@ -375,13 +424,59 @@ margin-left: 10px;
     background-image: url(/gfx/GENERIC/after.png);
   }
 
-/*section1*/
+  /*Carousel*/
 
-.heading2{
-  color: white;
-  position: absolute;
-  margin-left: 100px;
-  margin-top: 40px;
+/*sections*/
+
+.section8 {
+  display: flex ;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.section8 img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: -10%;
+}
+
+.section9 {
+  display: flex ;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.section12{
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-evenly;
+}
+
+.section12 img{
+  width: 700px;
+  height: 300px;
+  margin-left: 478px;
+  display: flex;
+}
+
+.section12-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+
+.section12-images img{
+  width: 300px;
+  height: 300px;
+}
+
+.section5{
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
 }
 
 .section1-container img{
@@ -406,20 +501,6 @@ margin-left: 10px;
   flex-direction: row;
   justify-content: space-around;
 }
-
-
-
-/*section2*/
-
-
-.backgroundpurple1{
-  position:absolute;
-  margin-top: px;
-  background: #e2d6d77c;
-  width: 100%;
-  height: 445px;
-}
-
 
 .section2-container img{
   width: 500px;
@@ -446,6 +527,33 @@ margin-left: 10px;
   height: 800px;
 }
 
+/*sections*/
+
+/*section2*/
+
+.heading22{
+  color: white;
+  position: relative;
+  margin-top: 9%;
+  left: 200px;
+  width: 500px;
+  }
+
+.heading2{
+  color: white;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.backgroundpurple1{
+  position:absolute;
+  margin-top: 0px;
+  background: #e2d6d77c;
+  width: 100%;
+  height: 445px;
+}
+
 .heading3{
   width: 500px;
   margin-left: 100px;
@@ -453,6 +561,8 @@ margin-left: 10px;
   margin-top: 25px;
   color: white;
 }
+
+/*section2*/
 
 /*footer*/
 
@@ -637,57 +747,6 @@ footer{
   margin-right: auto;
 }
 
-.section8 {
-  display: flex ;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
-
-.section8 img {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  left: -10%;
-}
-
-.section9 {
-  display: flex ;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
-
-.section12{
-  display: flex;
-  margin-left: 40px;
-  justify-content: space-evenly;
-}
-
-.section12 img{
-  width: 700px;
-  height: 300px;
-  margin-left: 478px;
-  display: flex;
-}
-
-.section12-images{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 40px;
-  margin-top: 100px;
-}
-
-.section12-images img{
-  width: 300px;
-  height: 300px;
-}
-
-.section5{
-  display: flex;
-  margin-left: 40px;
-  justify-content: space-between;
-}
-
 .container{
   background: #0C2E59;
   width: 300px;
@@ -717,6 +776,20 @@ footer{
   background: #0C2E59;
   width: 720px;
   height: 720px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container77{
+  background: #0C2E59;
+  width: 720px;
+  height: 980px;
   color: white;
   text-align: center;
   display: flex;
