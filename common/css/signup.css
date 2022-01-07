@@ -12,6 +12,41 @@ body{
     text-align: center;
 }
 
+.bookingcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.bookingimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px; height:90%;
+    color: white;
+  }
+
+.bookingcenter p{
+    color: white;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    margin-left: 41%;
+    margin-top: 50px;
+}
+
+.thankyoucontainer{
+    background: #0C2E59;
+    width: 600px;
+    position: relative;
+    margin-left: 34%;
+    padding: 2em;
+}
+
 .container{
     background: #0C2E59;
     width: 450px;
@@ -69,4 +104,18 @@ body{
 
 .have-account{
     margin-top: 30px;
+}
+
+.forgot{
+    margin-top: 20px;
+    position: relative;
+    left: 69%;
+}
+.forgot a{
+    color: white;
+    font-size: 15px;
+}
+
+.signupbtn{
+    margin-top: 20px;
 }

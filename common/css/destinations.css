@@ -425,3 +425,49 @@ footer{
   height: 1px;
 }
 /*footer*/
+
+/*About Us Page & Terms Of Service Page*/
+
+.box24 {
+  background-color: #0C2E59;
+  height: 140%;
+  width: 60%;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.box25 {
+  background-color: #0C2E59;
+  height: 140%;
+  width: 60%;
+  font-size: 24px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.box26 {
+  background-color: #0C2E59;
+  height: 140%;
+  width: 60%;
+  font-size: 24px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.underlinedtext {
+  text-decoration: underline;
+} 
+
+.toscenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  color: white;
+}
